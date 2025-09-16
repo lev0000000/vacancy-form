@@ -10,82 +10,149 @@
 </head>
 
 <body>
-<header class="header">
-  <div class="header__content">
-    <button class="header__menu" aria-label="Переключаетель меню">
-      <svg class="header__burger-icon" width="60" height="23" aria-hidden="true">
-        <use xlink:href="images/sprite.svg#icon-burger"></use>
-      </svg>
-    </button>
-    <a class="header__logo-link" href="#" aria-label="Переход на главную страницу Sminex">
-      <svg class="header__logo" width="115" height="27" aria-hidden="true">
-        <use xlink:href="images/sprite.svg#icon-logo"></use>
-      </svg>
-    </a>
-  </div>
-</header>
-<main>
-  <!-- Вакансии -->
-   <section class="vacancy">
-    <div class="container">
-      <div class="vacancy__wrapper">
-        <div class="vacancy__block">
-          <h1 class="vacancy__block-heading"></h1>
-          <div class="vacancy__block-contact"></div>
-          <ul class="vacancy__block-list">
-            <li class="vacanc__block-list-item"></li>
-            <li class="vacanc__block-list-item"></li>
-            <li class="vacanc__block-list-item"></li>
-            <li class="vacanc__block-list-item"></li>
-            <li class="vacanc__block-list-item"></li>
-            <li class="vacanc__block-list-item"></li>
-          </ul>
-        </div>
-        <div class="vacancy-request">
-          <form action="#" class="vacancy-form" method="POST">
-            <div class="custom-input"></div>
-          </form>
-        </div>
-        
-      </div>
-    </div>
-   </section>
-</main>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__content">
-      <a class="footer__logo-link" href="#" aria-label="Переход на главную страницу Sminex">
-        <svg class="footer__logo" width="115" height="27" aria-hidden="true">
+  <header class="header">
+    <div class="header__content">
+      <button class="header__menu" aria-label="Переключаетель меню">
+        <svg class="header__burger-icon" width="60" height="23" aria-hidden="true">
+          <use xlink:href="images/sprite.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <a class="header__logo-link" href="#" aria-label="Переход на главную страницу Sminex">
+        <svg class="header__logo" width="115" height="27" aria-hidden="true">
           <use xlink:href="images/sprite.svg#icon-logo"></use>
         </svg>
       </a>
-      <div class="footer__nav">
-        <ul class="footer__nav-list">
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Коротко о нас</a>
-          </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Создаем уникальные проекты</a>
-          </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Служба комфорта</a>
-          </li>
-        </ul>
-        <ul class="footer__nav-list">
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Работодатель №1</a>
-          </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Информационный центр</a>
-          </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Sminex Club</a>
-          </li>
-        </ul>
+    </div>
+  </header>
+  <main>
+    <!-- Вакансии -->
+    <section class="vacancy">
+      <div class="container">
+        <div class="vacancy__wrapper">
+          <div class="vacancy__block">
+            <div class="vacancy__block-heading">
+              <h1 class="vacancy__block-heading-text">Вакансии</h1>
+              <div class="vacancy__block-heading-contact contact">
+                <div class="contact__mid">
+                  <span class="contact__mid-heading">Контакты HR-отдела</span>
+                  <div class="contact__mid-link">
+                    <a class="contact__mid-link-tel" href="tel:84954878808">+7 (495) 487-88-08</a>
+                    <a class="contact__mid-link-mail" href="mailto:hr@sminex.com">hr@sminex.com</a>
+                  </div>
+                </div>
+                <a class="contact__request" href="#">Отправить резюме</a>
+              </div>
+            </div>
+            <ul class="vacancy__block-list">
+              <li class="vacancy__block-list-item">
+                <span class="vacancy__block-list-name">руководитель группы продаж через sminex club</span>
+                <span class="vacancy__block-list-price">240 000 руб.</span>
+              </li>
+              <li class="vacancy__block-list-item">
+                <span class="vacancy__block-list-name">руководитель группы архитекторов (планировочные решения)</span>
+                <span class="vacancy__block-list-price">от 230 000 до 345 000 руб.</span>
+              </li>
+              <li class="vacancy__block-list-item">
+                <span class="vacancy__block-list-name">администратор ресепшен/секретарь</span>
+                <span class="vacancy__block-list-price">от 65 000 до 85 000 руб.</span>
+              </li>
+              <li class="vacancy__block-list-item">
+                <span class="vacancy__block-list-name">ведущий специалист по закупкам (отделочные материалы)</span>
+                <span class="vacancy__block-list-price">от 195 000 до 290 000 руб.</span>
+              </li>
+              <li class="vacancy__block-list-item">
+                <span class="vacancy__block-list-name">ведущий специалист по закупкам (инженерное оборудование)</span>
+                <span class="vacancy__block-list-price">от 190 000 до 290 000 руб.</span>
+              </li>
+              <li class="vacancy__block-list-item">
+                <span class="vacancy__block-list-name">начальник отдела проектирования кр (проектное бюро)</span>
+                <span class="vacancy__block-list-price">з/п по итогам собеседования</span>
+              </li>
+            </ul>
+          </div>
+          <div class="vacancy-request">
+            <form action="#" class="vacancy-form" method="POST">
+              <div class="vacancy-form__request">
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" id="user-name" name="user-name" required>
+                  <label for="user-name" class="custom-input__label">Имя*</label>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" id="user-surname" name="user-surname" required>
+                  <label for="user-surname" class="custom-input__label">Фамилия*</label>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" id="user-activity" name="user-activity" required>
+                  <label for="user-activity" class="custom-input__label">Желаемая должность*</label>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="tel" id="user-tel" name="user-tel" required>
+                  <label for="user-tel" class="custom-input__label">Телефон*</label>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="email" id="user-email" name="user-email" required>
+                  <label for="user-email" class="custom-input__label">
+                    <span class="custom-input__label-text">E-mail*</span>
+                    <svg class="custom-input__labe-icon" width="28" height="28">
+                      <use xlink:href="images/sprite.svg#icon-email"></use>
+                    </svg>
+                  </label>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="text" id="user-resume" name="user-resume" required>
+                  <label for="user-email" class="custom-input__label">
+                    <span class="custom-input__label-text">Ссылка на резюме*</span>
+                    <svg class="custom-input__labe-icon" width="28" height="28">
+                      <use xlink:href="images/sprite.svg#icon-link"></use>
+                    </svg>
+                  </label>
+                </div>
+              </div>
+              <div class="vacancy-form__submit">
+                <div class="custom-checkbox"></div>
+                <button class="custom-btn btn" type="submit">Отправить заявку</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <a class="footer__logo-link" href="#" aria-label="Переход на главную страницу Sminex">
+          <svg class="footer__logo" width="115" height="27" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <div class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Коротко о нас</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Создаем уникальные проекты</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Служба комфорта</a>
+            </li>
+          </ul>
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Работодатель №1</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Информационный центр</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Sminex Club</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 </body>
 
 </html>
