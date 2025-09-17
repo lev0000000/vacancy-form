@@ -8,7 +8,14 @@
 /* Blocks */
 
 @import "blocks/header.css";
+@import "blocks/main.css";
 @import "blocks/vacancy.css";
+@import "blocks/resume.css";
+@import "blocks/custom-input.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/btn.css";
+@import "blocks/custom-btn.css";
 @import "blocks/contact.css";
 @import "blocks/footer.css";
+@import "blocks/cookie.css";
 

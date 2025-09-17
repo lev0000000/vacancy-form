@@ -1,7 +1,12 @@
+.vacancy__block{
+    margin-bottom: 110px;
+}
+
 .vacancy__block-heading{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .vacancy__block-heading-text{
@@ -9,6 +14,7 @@
     font-size: 60px;
     line-height: 72px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .vacancy__block-heading-contact{
@@ -20,20 +26,19 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 28px;
     list-style: none;
 }
 
 .vacancy__block-list-item{
+    width: 100%;
     display: flex;
-    padding: 0 28px 28px;
+    padding: 28px;
     justify-content: space-between;
     border-bottom: 1px solid rgba(214, 210, 196, 1);
 }
 
 .vacancy__block-list-item:first-child{
     display: flex;
-    padding: 28px 28px;
     justify-content: space-between;
     border-top: 1px solid rgba(214, 210, 196, 1);
 }
@@ -45,7 +50,7 @@
     text-transform: uppercase;
 }
 
-.vacancy__block-list-name{
+.vacancy__block-list-price{
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;

@@ -2,6 +2,11 @@
   min-height: 80px;
   padding: 23px 28px;
   border-bottom: 1px solid #e2e2e2;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  
 }
 
 .header__content {

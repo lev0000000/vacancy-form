@@ -1,0 +1,14 @@
+.btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn--xl{
+    background-color:#D6D2C4;
+    border-radius: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: inherit;
+}

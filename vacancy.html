@@ -70,53 +70,82 @@
               </li>
             </ul>
           </div>
-          <div class="vacancy-request">
-            <form action="#" class="vacancy-form" method="POST">
-              <div class="vacancy-form__request">
-                <div class="custom-input">
-                  <input class="custom-input__field" type="text" id="user-name" name="user-name" required>
-                  <label for="user-name" class="custom-input__label">Имя*</label>
-                </div>
-                <div class="custom-input">
-                  <input class="custom-input__field" type="text" id="user-surname" name="user-surname" required>
-                  <label for="user-surname" class="custom-input__label">Фамилия*</label>
-                </div>
-                <div class="custom-input">
-                  <input class="custom-input__field" type="text" id="user-activity" name="user-activity" required>
-                  <label for="user-activity" class="custom-input__label">Желаемая должность*</label>
-                </div>
-                <div class="custom-input">
-                  <input class="custom-input__field" type="tel" id="user-tel" name="user-tel" required>
-                  <label for="user-tel" class="custom-input__label">Телефон*</label>
-                </div>
-                <div class="custom-input">
-                  <input class="custom-input__field" type="email" id="user-email" name="user-email" required>
-                  <label for="user-email" class="custom-input__label">
-                    <span class="custom-input__label-text">E-mail*</span>
-                    <svg class="custom-input__labe-icon" width="28" height="28">
-                      <use xlink:href="images/sprite.svg#icon-email"></use>
-                    </svg>
-                  </label>
-                </div>
-                <div class="custom-input">
-                  <input class="custom-input__field" type="text" id="user-resume" name="user-resume" required>
-                  <label for="user-email" class="custom-input__label">
-                    <span class="custom-input__label-text">Ссылка на резюме*</span>
-                    <svg class="custom-input__labe-icon" width="28" height="28">
-                      <use xlink:href="images/sprite.svg#icon-link"></use>
-                    </svg>
-                  </label>
-                </div>
+          <div class="resume">
+            <form action="#" class="resume-form" method="POST">
+              <div class="resume-form__heading">
+                <h2 class="resume-form__heading-left">отправить резюме</h2>
+                <span class="resume-form__heading-right">Мы свяжемся с вами, когда появится подходящая вакансия</span>
               </div>
-              <div class="vacancy-form__submit">
-                <div class="custom-checkbox"></div>
-                <button class="custom-btn btn" type="submit">Отправить заявку</button>
-              </div>
+              <fieldset class="resume-form__request">
+                <div class="resume-form__input">
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="text" id="user-name" name="user-name" required>
+                    <label for="user-name" class="custom-input__label">
+                      <span class="custom-input__label-text">Имя*</span>
+                    </label>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="text" id="user-surname" name="user-surname" required>
+                    <label for="user-surname" class="custom-input__label"><span
+                        class="custom-input__label-text">Фамилия*</span>
+                    </label>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="text" id="user-activity" name="user-activity" required>
+                    <label for="user-activity" class="custom-input__label">
+                      <span class="custom-input__label-text">Желаемая должность*</span>
+                    </label>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="tel" id="user-tel" name="user-tel" required>
+                    <label for="user-tel" class="custom-input__label">
+                      <span class="custom-input__label-text">Телефон*</span>
+                    </label>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="email" id="user-email" name="user-email" required>
+                    <label for="user-email" class="custom-input__label">
+                      <span class="custom-input__label-text">E-mail*</span>
+                      <svg class="custom-input__label-icon" width="28" height="28">
+                        <use xlink:href="images/sprite.svg#icon-email"></use>
+                      </svg>
+                    </label>
+                  </div>
+                  <div class="custom-input">
+                    <input class="custom-input__field" type="text" id="user-resume" name="user-resume" required>
+                    <label for="user-email" class="custom-input__label">
+                      <span class="custom-input__label-text">Ссылка на резюме*</span>
+                      <svg class="custom-input__label-icon" width="28" height="28">
+                        <use xlink:href="images/sprite.svg#icon-link"></use>
+                      </svg>
+                    </label>
+                  </div>
+                </div>
+                <div class="resume-form__submit">
+                  <div class="custom-checkbox">
+                    <input type="checkbox" class="custom-checkbox__field visually-hidden" id="user-true"
+                      name="user-true">
+                    <label for="user-true" class="custom-checkbox__label">Даю согласие на обработку персональных
+                      данных</label>
+                  </div>
+                  <button class="custom-btn btn btn--xl" type="submit">Отправить заявку</button>
+                </div>
+              </fieldset>
             </form>
           </div>
         </div>
       </div>
     </section>
+    <div class="cookie cookie--active">
+      <p class="cookie__text">Мы используем файлы cookie для улучшения работы этого сайта. Для получения дополнительной
+        информации ознакомьтесь с нашей <a class="cookie__text-link" href="#">Политикой конфиденциальности</a></p>
+      <a href="#" class="cookie__desc btn--xl">Подробнее</a>
+      <button type="cookie__exit" class="cookie-btn btn">
+        <svg class="cookie__exit-icon" width="20" height="20">
+          <use xlink:href="images/sprite.svg#icon-exit"></use>
+        </svg>
+      </button>
+    </div>
   </main>
   <footer class="footer">
     <div class="container">
@@ -153,6 +182,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>

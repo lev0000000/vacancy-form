@@ -1,0 +1,29 @@
+.cookie{
+    position: fixed;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 26px 16px 26px;
+    background-color: #1D252D;
+    bottom:252px;
+    right: 20px;
+}
+
+.cookie__text{
+    color: #fff;
+}
+
+.cookie__desc{
+    width: 308px;
+    padding: 9px 0;
+    color: #1D252D;
+    text-align: center;
+}
+
+.cookie__exit-icon{
+    position: absolute;
+    color:#fff;
+    top: 6px;
+    right: 6px;
+}
