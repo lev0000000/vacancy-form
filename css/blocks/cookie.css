@@ -1,17 +1,29 @@
 .cookie{
     position: fixed;
     width: 460px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 26px 26px 16px 26px;
     background-color: #1D252D;
     bottom:252px;
     right: 20px;
+    display: none;
+}
+
+.cookie--active{
+    display: flex
 }
 
 .cookie__text{
     color: #fff;
+}
+
+.cookie__text-link{
+    text-decoration: underline;
+}
+
+.cookie__text-link:hover{
+    color:rgba(255, 255, 255, 0.5);
 }
 
 .cookie__desc{
@@ -27,3 +39,4 @@
     top: 6px;
     right: 6px;
 }
+

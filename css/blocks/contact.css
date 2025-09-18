@@ -14,8 +14,6 @@
     font-size: 18px;
     line-height: 22px;
     gap:5px;
-    
-    
 }
 
 .contact__mid-heading{
@@ -40,10 +38,19 @@
     color:#1D252D;
 }
 
+.contact__mid-link-tel:hover,
+.contact__mid-link-mail:hover{
+    text-decoration: underline;
+}
+
 .contact__request{
     color:#1D252D;
     font-weight: 300;
     font-size: 14px;
     line-height: 18px;
     text-decoration: underline;
+}
+
+.contact__request:hover{
+    color:rgba(29, 37, 45, 0.5);
 }

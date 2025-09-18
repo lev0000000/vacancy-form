@@ -12,3 +12,18 @@
     line-height: 20px;
     font-family: inherit;
 }
+
+.btn--xl:hover{
+    background-color: #1D252D;
+    color:#fff;
+}
+
+.btn--xl:focus-visible {
+    background-color: #1D252D;
+    color:#fff;
+}
+
+.btn--xl:disabled{
+    background-color: rgba(214, 210, 196, 0.5);
+    color:rgba(29, 37, 45, 0.5);
+}

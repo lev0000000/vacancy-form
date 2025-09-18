@@ -7,11 +7,34 @@
 }
 
 .custom-input__field {
-    position: relative;
     width: 100%;
     height: 56px;
-    border: 1px solid rgba(214, 210, 196, 1)
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid rgba(214, 210, 196, 1);
+    cursor:pointer;
+    padding: 18px 20px;
 }
+
+.custom-input__field:disabled {
+    border-color:rgba(233, 233, 233, 1);
+    pointer-events:none ;
+}
+
+.custom-input__field:hover{
+    border-color:#1D252D;
+}
+
+.custom-input__field:hover + .custom-input__label > .custom-input__label-icon {
+    color:rgba(117, 117, 118, 1);
+}
+
+.custom-input__field:focus-visible{
+    border-color:#1D252D;
+    outline:none;
+}
+
 
 .custom-input__label-text {
     position: absolute;
@@ -23,6 +46,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
+    height: 12px;
     
 }
 
@@ -32,3 +56,23 @@
     top: 14px;
     color: rgba(214, 210, 196, 1);
 }
+
+
+.custom-input__field:disabled +.custom-input__label > .custom-input__label-text {
+    color: rgba(29, 37, 45, 0.5);
+    pointer-events: none;
+}
+
+.custom-input__field:disabled + .custom-input__label > .custom-input__label-icon{
+    color:rgba(214, 210, 196, 1);
+    pointer-events: none;
+}
+
+.custom-input--error > .custom-input__field,
+.custom-input--error > .custom-input__field + .custom-input__label > .custom-input__label-icon {
+    border-color:#E80E0A;
+    color: rgba(242, 111, 108, 1);
+    background-color:rgba(255, 250, 250, 1);
+}
+
+

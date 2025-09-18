@@ -43,6 +43,10 @@
     border-top: 1px solid rgba(214, 210, 196, 1);
 }
 
+.vacancy__block-list-item:hover{
+    background-color: rgba(214, 210, 196, 0.2);
+}
+
 .vacancy__block-list-name{
     font-weight: 300;
     font-size: 20px;
