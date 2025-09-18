@@ -1,13 +1,15 @@
 .cookie{
     position: fixed;
-    width: 460px;
+    width: 360px;
+    height: 150px;
     flex-direction: column;
     align-items: center;
-    padding: 26px 26px 16px 26px;
+    padding: 26px;
     background-color: #1D252D;
-    bottom:252px;
-    right: 20px;
+    bottom:255px;
+    right: 165px;
     display: none;
+    gap: 16px;
 }
 
 .cookie--active{
@@ -16,6 +18,10 @@
 
 .cookie__text{
     color: #fff;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
 }
 
 .cookie__text-link{
@@ -31,6 +37,9 @@
     padding: 9px 0;
     color: #1D252D;
     text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .cookie__exit-icon{

@@ -1,5 +1,5 @@
 .vacancy__block{
-    margin-bottom: 110px;
+    margin-bottom: 115px;
 }
 
 .vacancy__block-heading{
@@ -24,6 +24,7 @@
 
 .vacancy__block-list{
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -39,7 +40,6 @@
 
 .vacancy__block-list-item:first-child{
     display: flex;
-    justify-content: space-between;
     border-top: 1px solid rgba(214, 210, 196, 1);
 }
 

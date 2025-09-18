@@ -9,7 +9,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
-    padding-left: 20px;
+    padding-left: 28px;
     user-select: none;
 }
 
@@ -31,7 +31,7 @@
     width: 20px;
     height: 20px;
     border: 1px solid rgba(214, 210, 196, 1);
-    left: -10px;
+    left: 0;
 }
 
 .custom-checkbox__label-text-link{
