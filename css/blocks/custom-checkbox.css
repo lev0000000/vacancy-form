@@ -46,7 +46,7 @@
 .custom-checkbox__label-icon{
     position: absolute;
     display: none;
-    left: -5px;
+    left: 5px;
     top: 50%;
     transform: translateY(-50%);
     color: black;
